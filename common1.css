@@ -1,0 +1,52 @@
+   * {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .h-font {
+      font-family: 'Merienda', cursive;
+    }
+
+    /* Remove number spinners */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    input[type=number] {
+      -moz-appearance: textfield;
+    }
+
+    .custom-bg {
+      background-color: #2ec1ac;
+    }
+
+    .custom-bg:hover {
+      background-color: #279e8c;
+    }
+    .h-line {
+       width:150px;
+     margin: 0 auto;
+     height: 1.7px;
+    }
+
+    .custom-alert{
+      position: fixed;
+      top: 25px;
+      right: 25px;
+    }
+    #dashboard-menu{
+      position: fixed;
+      height: 100%;
+    }
+    @media  screen and (max-width:991px) {
+      #dashboard-menu{
+        height: auto;
+        width: 100%;
+
+      }
+      #main-content{
+        margin-top: 60px;
+      }
+      
+    }
